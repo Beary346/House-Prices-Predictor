@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from model import build_pipeline
 
-df = pd.read_csv(r"C:\Users\RC\Documents\ML Coding Projects\House Prices Predictor\data\train.csv")
+df = pd.read_csv(r"data\train.csv")
 
 X = df.drop("SalePrice", axis=1)
 y = df["SalePrice"]
