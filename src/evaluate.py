@@ -3,7 +3,7 @@ import joblib
 from sklearn.metrics import classification_report
 from sklearn.model_selection import train_test_split
 
-test = pd.read_csv(r"C:\Users\Ryan Craft\Documents\ML Coding Projects\House Prices Predictor\data\test.csv")
+test = pd.read_csv(r"C:\Users\RC\Documents\ML Coding Projects\House Prices Predictor\data\test.csv")
 X_test = test
 
 test_id = test["Id"]
